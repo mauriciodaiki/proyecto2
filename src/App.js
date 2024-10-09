@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
+import Contacto from './Contacto.js';
+import Precios from './Precios.js';
 
 function App() {
   return (
-    <div className="container">
-    <h1 className="title">
-       Haus der Musik <span aria-label="emoji" role="img">🎵</span>
-    </h1>
-    <input type="text" className="new-task"/>
+    <div className="App">
+    <Header />
+    <Contacto />
+    <Precios />
  </div>
   );
 }
